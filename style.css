@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: hsl(233, 47%, 7%);
+    box-sizing: border-box;
+}
+.main{
+    width: 80%;
+     height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 10px;
+}
+.leftpart{
+    width: 50%;
+    height: 350px;
+    background-color:hsl(244, 38%, 16%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    
+}
+.rightpart{
+    width: 50%;
+    height: 350px;
+    background-image:linear-gradient(hsl(277, 64%, 61%,0.4),hsl(277, 64%, 61%,0.4)),url(./images/image-header-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+.text{
+    width: 60%;
+    height: 90px;
+    align-items: center;
+    margin: 10px auto;
+    padding: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+
+}
+.flextext{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1{
+    font-weight: 700;
+}
+.purple{
+    color:hsl(277, 64%, 61%);
+}
+.boldtext{
+    font-weight: 700;
+}
+
+ 

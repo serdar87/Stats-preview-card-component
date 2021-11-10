@@ -22,9 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-   
-    
+      
 }
 .rightpart{
     width: 50%;
@@ -33,8 +31,6 @@ body{
     background-position: center;
     background-size: cover;
     
-    
-
 }
 .text{
     width: 60%;
@@ -43,8 +39,7 @@ body{
     margin: 10px auto;
     padding: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    
-
+   
 }
 .flextext{
     display: flex;
